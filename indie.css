@@ -1,0 +1,291 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    width:100%;
+    background-image:url(tata.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+nav{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color:cornsilk;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+   color:#f9004d;
+}
+
+nav ul li{
+    list-style-type: none ;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color:antiquewhite;
+    text-decoration:none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color:#f9004d;
+    transition: .4s;
+}
+
+.btn{
+    background-color:#f9004d;
+    color:aliceblue;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+ .btn :hover {
+   transform: scale(1.2);
+ }
+
+ .intro{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+ }
+
+.intro h4{
+    color:white;
+    margin: 20px 0px 20px;
+    font-size: 35px;
+ }
+
+
+
+
+
+
+
+
+ 
+.intro h1{
+    color:white;
+    margin-bottom:50px;
+    font-size:25px;
+ }
+
+ .about{
+   background-image:url(tata.jpg);
+
+    display:flex;
+    justify-content:space-between;
+    padding:70px;
+ }
+
+ .about img{
+    height:500px;
+    width: 400px;
+ }
+ .me{
+   padding-right:30px;
+   padding-left: 0;
+ }
+.knowme{
+   padding-left:5px;
+}
+.knowme p{
+   padding-left:10px;
+   /* background-color:coral; */
+
+   color:whitesmoke;
+   font-size: 16px;
+   line-height: 27px;
+   margin-top: 20px;
+   margin-bottom:25px
+}
+
+.knowme h2{
+   padding-left:10px;
+   color: white;
+   /* background-color:whitesmoke; */
+
+}
+
+ .pictures{
+   height:650px;
+   display:flex;
+   justify-content:space-around;
+   flex-direction: column;
+   background-image:url(sunbeam-photography-rthxdhNw06M-unsplash.jpg);
+
+   background-size: cover;
+   background-position: center;
+   align-items: center;
+ }
+
+ .one a{
+   padding:40px;
+ }
+
+ 
+ .service{
+   background-image:url(tata.jpg);
+   width:100%;
+   padding: 60px 0px;
+ }
+
+ .title h2{
+   color: white;
+   font-size:75px;
+   width:1130 px;
+   margin: 30px auto;
+   text-align: center;
+ }
+
+ .box{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+ }
+
+ .card{
+   height:365px;
+   width: 355px;
+   padding: 20px 35px;
+   background: #191919;
+   border-radius: 20px;
+   margin:15px;
+   position: relative;
+   overflow:hidden;
+   text-align: center;
+ }
+ 
+ .card i{
+   font-size: 50px;
+   display: block;
+   text-align: center;
+   margin:25px 0px;
+   color: #f9004d;
+ }
+
+ h5{
+   color:white;
+   font-size:23px;
+   margin-bottom:15px;
+ }
+
+ .pra p{
+   color: #fcfc;
+   font-size: 16px;
+   line-height: 27px;
+   margin-bottom:25px
+ }
+
+ .card .button{
+   background-color:#f9004d;
+   color:aliceblue;
+   text-decoration: none;
+   border:2px solid transparent;
+   font-weight: bold;
+   padding: 10px 25px;
+   border-radius: 30px;
+   transition: transform .4s;
+}
+ 
+.card .button:hover{
+   background-color: transparent;
+   border: 2px solid #f9004d;
+   cursor:pointer;
+}
+
+.word{
+   color:aliceblue;
+}
+
+.contact{
+   width:100%;
+   height:620px;
+   display:flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   background-image:url(fabio-oyXis2kALVg-unsplash.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.contact p{
+   color: white;
+   font-size: 30px;
+   font-weight: bold;
+   margin-bottom: 25px;
+}
+.contact .button-two{
+   background-color:#f9004d;
+   color:aliceblue;
+   text-decoration: none;
+   border:2px solid transparent;
+   font-weight: bold;
+   padding: 10px 25px;
+   border-radius: 30px;
+   transition: transform .4s;
+}
+
+.contact .button-two:hover{
+   background-color: transparent;
+   border: 2px solid #f9004d;
+   cursor:pointer;
+}
+
+footer{
+   position:relative;
+   width:100%;
+   height:100px;
+   background:#101010 ;
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   justify-content:center; 
+}
+.social-container{
+   padding-bottom:50px;
+  color:mediumvioletred;
+}
+.social-container a {
+   transition: all 0.2s ease-in-out;
+ }
+ 
+ .social-container a i {
+  width: 30px;
+  height: 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-container a:hover i {
+  transform: scale(1.1);
+}
+
+.final{
+   position: absolute;
+   color: antiquewhite;
+   bottom:10px;
+   font-size:14px;
+}
